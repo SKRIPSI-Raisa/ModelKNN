@@ -1,0 +1,13 @@
+# Ignore relocated dataset
+DATASET/
+
+# Ignore Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore model binaries and training reference pickles
+*.pkl
+
+# Ignore metrics output JSON
+metrics.json

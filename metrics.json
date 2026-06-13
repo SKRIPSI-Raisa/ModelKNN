@@ -1,0 +1,89 @@
+{
+  "accuracy": 0.8118,
+  "precision": 0.7726,
+  "recall": 0.9386,
+  "f1_score": 0.8476,
+  "k_optimal": 19,
+  "confusion_matrix": {
+    "tp": 1315,
+    "tn": 725,
+    "fp": 387,
+    "fn": 86
+  },
+  "k_curve": [
+    {
+      "k": 1,
+      "accuracy": 0.7752
+    },
+    {
+      "k": 3,
+      "accuracy": 0.7859
+    },
+    {
+      "k": 5,
+      "accuracy": 0.7911
+    },
+    {
+      "k": 7,
+      "accuracy": 0.8022
+    },
+    {
+      "k": 9,
+      "accuracy": 0.8018
+    },
+    {
+      "k": 11,
+      "accuracy": 0.809
+    },
+    {
+      "k": 13,
+      "accuracy": 0.8074
+    },
+    {
+      "k": 15,
+      "accuracy": 0.8098
+    },
+    {
+      "k": 17,
+      "accuracy": 0.811
+    },
+    {
+      "k": 19,
+      "accuracy": 0.8118
+    }
+  ],
+  "feature_comparison": [
+    {
+      "method": "Color Histogram",
+      "accuracy": 0.8118
+    },
+    {
+      "method": "Local Binary Patterns (LBP)",
+      "accuracy": 0.7449
+    },
+    {
+      "method": "Histogram of Oriented Gradients (HOG)",
+      "accuracy": 0.7358
+    },
+    {
+      "method": "Histogram + LBP (Combined)",
+      "accuracy": 0.807
+    }
+  ],
+  "model_info": {
+    "algorithm": "K-Nearest Neighbors (KNN)",
+    "k_value": 19,
+    "input_size": [
+      128,
+      128,
+      3
+    ],
+    "classes": [
+      "Organik",
+      "Non-Organik"
+    ],
+    "trained_at": "2026-06-13T06:36:45Z",
+    "train_size": 22564,
+    "test_size": 2513
+  }
+}
